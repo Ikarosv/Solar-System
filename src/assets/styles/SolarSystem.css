@@ -1,12 +1,43 @@
 #solar-system {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;
   align-items: center;
+  position: relative;
+  margin-top: 5rem;
 }
 
 #solar-system h2 {
   text-transform: uppercase;
   font-family: 'Epilogue';
   font-weight: 260;
+}
+
+#solar-system ul {
+  list-style: none;
+  display: flex;
+}
+
+#solar-system ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+
+#solar-system p {
+  font-family: 'Epilogue';
+  font-weight: 300;
+}
+
+#solar-system > .line {
+  width: 100%;
+  left: 0;
+  z-index: 0;
+  top: 50%;
+  height: 1px;
+  position: absolute;
+
+  background-color: #fff;
 }

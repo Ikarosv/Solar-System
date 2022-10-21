@@ -6,14 +6,27 @@ export default class PlanetCard extends Component {
     const { planetName, planetImage } = this.props;
     return (
       <div data-testid="planet-card">
+        <img
+          src={ planetImage.image }
+          width={ planetImage.width }
+          alt={ `Planeta ${planetName}` }
+        />
         <p data-testid="planet-name">{ planetName }</p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
       </div>
     );
   }
 }
 
 PlanetCard.propTypes = {
-  planetImage: PropTypes.string.isRequired,
-  planetName: PropTypes.string.isRequired,
+  planetName: PropTypes.string,
+  planetImage: PropTypes.shape({
+    image: PropTypes.string,
+    width: PropTypes.string,
+  }),
+}.isRequired;
+
+PlanetCard.defaultProps = {
+  planetImage: {
+    width: 'auto',
+  },
 };
