@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Epilogue';
-  src: url('./assets/fonts/Epilogue-VariableFont_wght.ttf');
+  src: url('./assets/fonts/Epilogue-VariableFont_wght.ttf'), url('./assets/fonts/static/Epilogue-ExtraLight.ttf');
+  font-weight: 100 1000;
 }
 
 * {
