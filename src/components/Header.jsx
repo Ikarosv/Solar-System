@@ -1,10 +1,12 @@
 import React from 'react';
+import '../assets/styles/Header.css';
 
 class Header extends React.Component {
   render() {
     return (
-      <header>
-        <h1>Sistema Solar</h1>
+      <header className="Header">
+        <span className="elipse" />
+        <h1 className="h1Header">Sistema Solar</h1>
       </header>
     );
   }
