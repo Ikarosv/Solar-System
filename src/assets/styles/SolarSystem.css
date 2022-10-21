@@ -1,0 +1,12 @@
+#solar-system {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#solar-system h2 {
+  text-transform: uppercase;
+  font-family: 'Epilogue';
+  font-weight: 260;
+}
