@@ -6,7 +6,13 @@ class Header extends React.Component {
     return (
       <header className="Header">
         <span className="elipse" />
-        <h1 className="h1Header">Sistema Solar</h1>
+        <h1 className="h1Header">
+          Si
+          <span className="span">st</span>
+          ema So
+          <span className="span">la</span>
+          r
+        </h1>
       </header>
     );
   }

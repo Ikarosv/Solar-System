@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Epilogue";
+  font-family: Epilogue;
   font-weight: 100 1000;
   src: url('./assets/fonts/Epilogue-VariableFont_wght.ttf') , url('./assets/fonts/static/Epilogue-ExtraLight.ttf');
 }
 
 * {
   box-sizing: border-box;
+  font-family: Epilogue , sans-serif;
   margin: 0;
   padding: 0;
-  font-family: Epilogue , sans-serif;
 }
 
 body {

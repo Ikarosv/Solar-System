@@ -1,29 +1,31 @@
 .Header {
+  align-items: center;
   display: flex;
   flex-direction: column;
+  height: 200px;
   justify-content: center;
-  align-items: center;
-
   margin: 31px auto;
   width: fit-content;
-  height: 200px;
 }
 
 .elipse {
-  position: absolute;
-  width: 120.07px;
-  height: 307.45px;
-
   border: white 1px solid;
   border-radius: 100%;
-  /* transform: matrix(0.58, 0.78, -0.87, 0.56, 0, 0) */
+  height: 307.45px;
+  position: absolute;
   transform: rotate(59deg);
+  width: 120.07px;
+  z-index: 0;
 }
 
 .h1Header {
-  text-transform: uppercase;
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 150;
   font-size: 30pt;
+  font-weight: 150;
   letter-spacing: 2px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.span {
+  background-image: url('../../images/background.png');
 }

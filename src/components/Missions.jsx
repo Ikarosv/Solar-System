@@ -7,7 +7,7 @@ import '../assets/styles/Missions.css';
 export default class Missions extends Component {
   render() {
     return (
-      <div data-testid="missions" id="missions">
+      <div data-testid="missions" className="missions">
         <Title headline="Missões" />
         <ul>
           {missions.map(({ name, year, country, destination }) => (

@@ -1,24 +1,25 @@
-#missions {
+.missions {
   background-color: rgb(255, 255, 255, 0.1);
-  width: fit-content;
-  text-align: center;
-  margin: 100px auto;
   border-radius: 30px;
+  margin: 100px auto;
   max-width: 1098px;
   padding: 50px;
+  text-align: center;
+  width: fit-content;
 }
 
-#missions h2 {
-  text-transform: uppercase;
+.missions h2 {
+  font-size: 22.5pt;
   font-weight: 300;
-  font-size: 30px;
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
-#missions ul {
+.missions ul {
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
   list-style: none;
-  justify-content: space-around;
+  width: 100%;
 }

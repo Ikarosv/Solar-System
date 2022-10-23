@@ -1,43 +1,46 @@
-#solar-system {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.solar-system {
   align-items: center;
-  position: relative;
-  margin-top: 5rem;
-}
-
-#solar-system h2 {
-  text-transform: uppercase;
-  font-family: 'Epilogue';
-  font-weight: 260;
-}
-
-#solar-system ul {
-  list-style: none;
-  display: flex;
-}
-
-#solar-system ul li {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 5rem;
+  position: relative;
+  width: 100%;
+}
+
+.solar-system h2 {
+  font-weight: 260;
+  text-transform: uppercase;
+}
+
+.solar-system ul {
+  display: flex;
+  list-style: none;
+}
+
+.solar-system ul li {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   z-index: 1;
 }
 
-#solar-system p {
-  font-family: 'Epilogue';
+.solar-system ul li div {
+  align-items: end;
+  display: grid;
+  height: 100%;
+  justify-items: center;
+}
+
+.solar-system p {
   font-weight: 300;
 }
 
-#solar-system > .line {
-  width: 100%;
-  left: 0;
-  z-index: 0;
-  top: 50%;
+.solar-system > .line {
+  background-color: white;
   height: 1px;
+  left: 0;
   position: absolute;
-
-  background-color: #fff;
+  top: 52%;
+  width: 100%;
+  z-index: 0;
 }
