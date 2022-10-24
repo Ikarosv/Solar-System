@@ -1,0 +1,11 @@
+.hovered {
+  transform: scale(1.2);
+}
+
+.dark {
+  filter: grayscale(100%);
+}
+
+.planetName {
+  visibility: hidden;
+}
